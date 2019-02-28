@@ -5,7 +5,7 @@ product is odd.
 Solution:
 Odd * Odd = Odd
 Odd * even = even
-So to have a distinct pair of numbers whose product is odd, we should have atleast
+So to have a distinct pair of numbers whose product is odd, we should have atleast 
 two odd numbers
 """
 def oddPair(data):
