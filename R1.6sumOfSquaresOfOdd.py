@@ -1,3 +1,10 @@
+"""
+Write a short Python function that takes a positive integer n and returns
+the sum of the squares of all the odd positive integers smaller than n.
+
+Give a single command that computes the sum from above Exercise, relying
+on Python’s comprehension syntax and the built-in sum function
+"""
 def sumOfSquaresOfOdd(n):
     sum = 0
     for x in range(1,n+1):

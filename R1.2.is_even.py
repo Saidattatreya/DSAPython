@@ -1,3 +1,9 @@
+"""
+Write a short Python function, is even(k), that takes an integer value and
+returns True if k is even, and False otherwise. However, your function
+cannot use the multiplication, modulo, or division operators.
+"""
+
 def is_Even(a):
     #Solution 1 -> Divide by 2
     return True if(a%2 == 0 and a>1) else False
